@@ -150,7 +150,7 @@ function spawnObstacles() {
     //obstacle.debug = true;
     obstacle.velocityX = -(6 + 3*score/100);
     obstacle.setCollider("rectangle",0,0,70,120)
-    obstacle.debug = true
+    //obstacle.debug = true
     //generate random obstacles
     var rand = Math.round(random(1,6));
     switch(rand) {
